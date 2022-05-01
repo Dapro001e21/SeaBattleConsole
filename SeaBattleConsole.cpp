@@ -267,7 +267,6 @@ string GetIP()
 
 	gethostname(n, 255);
 	host = gethostbyname(n);
-	int i = 0;
 	for (int i = 0; host->h_addr_list[i] != 0; i++)
 	{
 		if (host->h_addr_list[i + 1] == 0)
