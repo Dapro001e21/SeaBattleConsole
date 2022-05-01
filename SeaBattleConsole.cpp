@@ -327,6 +327,14 @@ int main()
 		int* map = MapGenerated(mapX, mapY);
 		int* mapEnemy = MapGenerated(mapX, mapY);
 
+		/*
+		0 - Море
+		1 - Границы поля
+		2 - Корабль
+		3 - Мимо
+		4 - Попал
+		*/
+
 		//Меню
 		system("cls");
 		printf("\x1B[97mМеню:\n1)Играть\n2)Играть онлайн\n3)Выйти\n");
